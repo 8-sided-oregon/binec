@@ -55,7 +55,7 @@ def parse_args() -> (int, bool, bool, str, str):
         if delim_last_arg:
             delim_last_arg = False
             delim = arg
-        if num_last_arg:
+        elif num_last_arg:
             num_last_arg = False
             try:
                 interval = int(arg)
