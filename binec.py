@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/env python3
 
 from _io import BufferedReader
 import sys
